@@ -1,0 +1,20 @@
+{
+  "@@locale": "en",
+  "title": "Battery Channel",
+  "helloButton": "Read Battery",
+  "batteryLevel": "Battery level: {level}%",
+  "@batteryLevel": {
+    "placeholders": {
+      "level": { "type": "int" }
+    }
+  },
+  "notReadYet": "Not read yet",
+  "channelMissing": "Battery channel not implemented on this platform",
+  "hostNull": "Read failed: host returned null",
+  "failWith": "Read failed: {reason}",
+  "@failWith": {
+    "placeholders": {
+      "reason": { "type": "String" }
+    }
+  }
+}

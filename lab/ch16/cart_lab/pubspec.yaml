@@ -1,0 +1,23 @@
+name: cart_lab
+description: ch16 单应用——同一购物车需求四方案同题共答，本地直构数据，离线可跑
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # 版本行以真仓锁定口径为准；riverpod 精确锁定 3.4.3（正文清单16-1 口径）
+  # flutter_bloc 由 pub add 实锁（9.1.1）
+  flutter_bloc: ^9.1.1
+  flutter_riverpod: 3.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

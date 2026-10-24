@@ -1,0 +1,10 @@
+Flutter assets will be downloaded from https://pub.flutter-io.cn. Make sure you trust this source!
+Analyzing anim_lab...                                           
+
+   info - Constructors for public widgets should have a named 'key' parameter. Try adding a named parameter to the constructor - lib\main.dart:19:9 - use_key_in_widget_constructors
+   info - Constructors for public widgets should have a named 'key' parameter. Try adding a named parameter to the constructor - lib\main.dart:118:9 - use_key_in_widget_constructors
+warning - The value of the field '_heart' isn't used. Try removing the field, or using it - lib\main_leak_auto.dart:76:10 - unused_field
+  error - The name 'LifecyclePage' isn't a class. Try correcting the name to match an existing class - test\verify_11_5_test.dart:60:29 - creation_with_non_type
+  error - Undefined name 'LifecyclePage'. Try correcting the name to one that is defined, or defining the name - test\verify_11_5_test.dart:79:24 - undefined_identifier
+
+5 issues found. (ran in 2.6s)

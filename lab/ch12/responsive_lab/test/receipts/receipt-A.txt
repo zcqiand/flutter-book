@@ -1,0 +1,16 @@
+回执A · 代码清单12-1/12-2 三形态运行回执
+来源: probe_capture.log(L3-L15), windows 轨=flutter build windows --debug --dart-define=PROBE=true 直跑 exe, 探针自驱动(SizedBox 约束宽度逐档 400/700/1000, 与拖拽窗口同一条 LayoutBuilder 父约束通路), 逐字转录
+===
+[探针] AdaptiveDemoPage LayoutBuilder width=400.0 命中=_SingleColumnLayout(手机单列)
+[探针] _SingleColumnLayout.build 单列: ListView padding=16, 卡片数=3
+[capture-A] 档位 1: 约束宽度=400.0
+[capture-A] 档位 1 段结束
+[capture-A] 档位 2: 约束宽度=700.0
+[探针] AdaptiveDemoPage LayoutBuilder width=700.0 命中=_TwoColumnLayout(平板双栏)
+[探针] _TwoColumnLayout.build 双栏: 左导航宽=220, 分隔线=1, 右内容=Expanded
+[capture-A] 档位 2 段结束
+[capture-A] 档位 3: 约束宽度=1000.0
+[探针] AdaptiveDemoPage LayoutBuilder width=1000.0 命中=_ThreeColumnLayout(桌面三栏)
+[探针] _ThreeColumnLayout.build 三栏: 侧栏=200, 列表=280, 详情=Expanded
+[capture-A] 档位 3 段结束
+[回执A] 三档布局分支与布局参数打印完毕(见上方 [capture-A]/[探针] 行)

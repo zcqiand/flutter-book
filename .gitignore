@@ -1,0 +1,16 @@
+# Flutter / Dart 可再生目录
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 日志与系统文件
+*.log
+.DS_Store
+Thumbs.db

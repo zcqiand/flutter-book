@@ -1,0 +1,14 @@
+Flutter assets will be downloaded from https://pub.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/qiand-life/1-projects/xr-knowledge-suite/output/xr-know-019/lab/ch11/anim_lab/test/verify_11_4_test.dart
+00:00 +0: 清单11-4 控制器/Tween/Curve 驱动：正放、倒放、from:0 重放
+[11-4] 初始：方块宽=60（Tween begin=60），文本=「宽度 60」
+[11-4] 正放 120ms：控制器值=60（easeOutBack 过冲则此值会越过 240），文本=「宽度 60」
+[11-4] 正放 240ms：控制器值=195（easeOutBack 过冲则此值会越过 240），文本=「宽度 195」
+[11-4] 正放 360ms：控制器值=243（easeOutBack 过冲则此值会越过 240），文本=「宽度 243」
+[11-4] 正放 480ms：控制器值=255（easeOutBack 过冲则此值会越过 240），文本=「宽度 255」
+[11-4] 正放 settle：控制器值=240（Tween end=240），方块宽=240
+[11-4] 倒放 150ms：控制器值=254（回落中）
+[11-4] 倒放 settle：控制器值=60（回到 begin=60），方块宽=60
+[11-4] 重放试验：第一次正放 300ms 后控制器值=252（半程）
+[11-4] 再点正放 60ms 后控制器值=141 远小于半程值 252 → forward(from:0) 从头重放成立
+00:00 +1: All tests passed!

@@ -1,0 +1,6 @@
+RECEIPT_BEGIN|17_9_settings
+STEP|step1-未写过读默认|actual=theme_mode=0,notice=true|expected=theme_mode=0,notice=true|PASS
+STEP|step2-写theme_mode=1再读|actual=1|expected=1|PASS
+STEP|step3-写notice=false再读|actual=false|expected=false|PASS
+STEP|step4-删键后读回默认|actual=theme_mode=0,notice=true|expected=theme_mode=0,notice=true|PASS
+RECEIPT_END|17_9_settings

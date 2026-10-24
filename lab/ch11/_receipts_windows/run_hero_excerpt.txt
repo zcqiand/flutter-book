@@ -1,0 +1,5 @@
+Flutter run key commands.
+[2026-10-19T08:25:49.498522] [auto] 窗口已启动：素材列表渲染完成（8 行，各含 Hero hero-box-i）
+[2026-10-19T08:25:51.001244] [auto] push DetailPage(index:1) → Hero(hero-box-1) 飞行开始（框架接管）
+[2026-10-19T08:25:54.003168] [auto] 详情页已落位 3 秒，自动 pop 返回列表（Hero 逆向归位）
+Application finished.

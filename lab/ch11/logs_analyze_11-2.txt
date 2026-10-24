@@ -1,0 +1,7 @@
+Flutter assets will be downloaded from https://pub.flutter-io.cn. Make sure you trust this source!
+Analyzing anim_lab...                                           
+
+   info - Constructors for public widgets should have a named 'key' parameter. Try adding a named parameter to the constructor - lib\main.dart:20:9 - use_key_in_widget_constructors
+   info - Constructors for public widgets should have a named 'key' parameter. Try adding a named parameter to the constructor - lib\main.dart:32:9 - use_key_in_widget_constructors
+
+2 issues found. (ran in 2.7s)

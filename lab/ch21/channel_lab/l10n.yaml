@@ -1,0 +1,5 @@
+# l10n.yaml（工程根目录）：声明 arb 位置与生成文件名，
+# flutter gen-l10n 据此生成强类型取词类，字符串漏译在编译期暴露
+arb-dir: lib/l10n
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart

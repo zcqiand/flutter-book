@@ -1,0 +1,20 @@
+{
+  "name": "dio-lab-contract",
+  "version": "0.1.0",
+  "private": true,
+  "description": "dio_lab teaching contract: TypeSpec SSOT -> OpenAPI only (family prototype: lab-management-system-shared)",
+  "type": "module",
+  "scripts": {
+    "build": "npm run emit:openapi",
+    "emit:openapi": "tsp compile .",
+    "lint": "tsp compile . --no-emit"
+  },
+  "devDependencies": {
+    "@typespec/compiler": "^1.0.0",
+    "@typespec/http": "^1.15.0",
+    "@typespec/openapi3": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,14 @@
+回执B · 代码清单12-4 重建定位回执(DevTools morph 口径)
+来源: probe_capture.log(L16-L24), windows 轨=探针编程触发 ElevatedButton.onPressed 单次按键, 组件级 build 序号探针等价呈现 rebuild 视图数据, 逐字转录
+===
+[探针] RebuildLabPage.build #1
+HeavyListView.build 执行, 共 40 个条目
+[探针] HeavyListView.build #1
+[capture-B] begin: 问题版(清单12-4), 即将编程触发单次按键
+[capture] 已编程触发 ElevatedButton.onPressed
+[探针] RebuildLabPage.build #2
+HeavyListView.build 执行, 共 40 个条目
+[探针] HeavyListView.build #2
+[capture-B] end: 问题版(清单12-4) 按键后观察窗关闭
+===
+判读: 单次按键后 RebuildLabPage 整页 build 序号 +1, 重子树 HeavyListView 对计数零依赖却同样 +1(无辜陪跑), 即 DevTools rebuild 视图中「谁在涨」的两个条目。

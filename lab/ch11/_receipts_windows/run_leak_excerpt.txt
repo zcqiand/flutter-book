@@ -1,0 +1,26 @@
+[2026-10-19T08:28:48.760300] [auto] push LeakLifecyclePage（含 repeat 控制器、无 dispose）
+[2026-10-19T08:28:49.285736] 泄漏心跳：控制器进度=0.250
+[2026-10-19T08:28:49.786213] 泄漏心跳：控制器进度=0.500
+[2026-10-19T08:28:50.284860] 泄漏心跳：控制器进度=0.750
+[2026-10-19T08:28:50.785107] 泄漏心跳：控制器进度=0.000
+[2026-10-19T08:28:51.260167] [auto] pop 泄漏页 ←— 此后若进度仍变化即泄漏坐实
+[2026-10-19T08:28:51.286350] 泄漏心跳：控制器进度=0.250
+══╡ EXCEPTION CAUGHT BY WIDGETS LIBRARY ╞═══════════════════════════════════════════════════════════
+The following assertion was thrown while finalizing the widget tree:
+_LeakLifecyclePageState#a2702(ticker active) was disposed with an active Ticker.
+_LeakLifecyclePageState created a Ticker via its SingleTickerProviderStateMixin, but at the time
+dispose() was called on the mixin, that Ticker was still active. The Ticker must be disposed before
+calling super.dispose().
+Tickers used by AnimationControllers should be disposed by calling dispose() on the
+AnimationController itself. Otherwise, the ticker will leak.
+The offending ticker was:
+  Ticker(created by _LeakLifecyclePageState#a2702)
+  The stack trace when the Ticker was actually created was:
+  #0      new Ticker.<anonymous closure> (package:flutter/src/scheduler/ticker.dart:86:40)
+  #1      new Ticker (package:flutter/src/scheduler/ticker.dart:88:6)
+  #2      SingleTickerProviderStateMixin.createTicker
+  ...（中段 240+ 帧组件树构建栈与 unmount 访栈从略，全文见 run_leak_windows.log）
+  ...
+[2026-10-19T08:28:51.785212] 泄漏心跳：控制器进度=0.500
+[2026-10-19T08:28:52.285445] 泄漏心跳：控制器进度=0.750
+[2026-10-19T08:28:52.785003] 泄漏心跳：控制器进度=0.000

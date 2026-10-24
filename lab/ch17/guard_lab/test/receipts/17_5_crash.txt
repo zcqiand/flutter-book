@@ -1,0 +1,9 @@
+RECEIPT_BEGIN|17_5_crash
+STEP|step1-按下前-页面完整|actual=子树正常=可见,边界外文字=可见|expected=子树正常=可见,边界外文字=可见|PASS
+STEP|step2-按下后-降级卡|actual=降级卡=出现,重试按钮=在|expected=降级卡=出现,重试按钮=在|PASS
+STEP|step3-崩溃后-子树原文本|actual=已替换|expected=已替换|PASS
+STEP|step4-崩溃后-兄弟存活|actual=边界外文字=可见,两按钮=齐|expected=边界外文字=可见,两按钮=齐|PASS
+STEP|step5-复位后-子树恢复|actual=子树正常=回来,降级卡=消失|expected=子树正常=回来,降级卡=消失|PASS
+STEP|step6-故障源在场点重试|actual=仍降级|expected=仍降级|PASS
+STEP|step7-再复位-回到完整|actual=子树正常=可见,边界外文字=可见|expected=子树正常=可见,边界外文字=可见|PASS
+RECEIPT_END|17_5_crash

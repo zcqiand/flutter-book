@@ -1,0 +1,11 @@
+Flutter assets will be downloaded from https://pub.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/qiand-life/1-projects/xr-knowledge-suite/output/xr-know-019/lab/ch11/anim_lab/test/verify_11_2_test.dart
+00:00 +0: 清单11-2+11-3 两页同名 Hero：导航前后存在性与尺寸落位
+[11-2/11-3] 列表页：Hero 数=8，tags=[hero-box-0, hero-box-1, hero-box-2]...（前 3 个）
+[11-2/11-3] 列表页 item0 缩略图尺寸=56x56
+[11-2/11-3] 转场中：路由推进 150ms，页面切换动画进行中（Hero 飞行由框架接管）
+[11-2/11-3] 落位：详情页 appBar=「素材 0 详情」
+[11-2/11-3] 详情页：Hero 数=1，tag=[hero-box-0]（与源页 item0 同名）
+[11-2/11-3] 详情页落位尺寸=200x200（56→200 尺寸差=飞行缩放来源）
+[11-2/11-3] pop 返回：详情页离栈，列表页 8 个 Hero 归位，数量=8
+00:00 +1: All tests passed!

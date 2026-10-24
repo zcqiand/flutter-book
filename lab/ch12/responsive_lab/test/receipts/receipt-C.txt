@@ -1,0 +1,18 @@
+回执C · 代码清单12-4 vs 12-7 修复前后回执 + 表12-2 指标
+来源: probe_capture.log(L26-L35), windows 轨=问题版/修复版同口径各跑同一编程按键场景, SchedulerBinding.addTimingsCallback 实抓 FrameTiming(debug 口径, 前后同轨可比), 逐字转录
+===
+[探针] RebuildLabFixedPage.build #1
+[探针] _CounterSection.build #1
+HeavyListView.build 执行, 共 40 个条目
+[探针] HeavyListView.build #3
+[capture-C] begin: 修复版(清单12-7), 即将编程触发单次按键
+[capture] 已编程触发 ElevatedButton.onPressed
+[探针] _CounterSection.build #2
+[capture-C] end: 修复版(清单12-7) 按键后观察窗关闭
+[回执C] 修复版(清单12-7): 观察窗帧数=1, 平均UI帧耗时=2.67ms, 最差UI帧耗时=2.67ms, 平均栅格帧耗时=0.82ms, 最差栅格帧耗时=0.82ms
+[PROBE-DONE] 三件回执场景执行完毕
+===
+修复前同场景对照(来自 receipt-B 同一窗口, 回执行在 probe_capture.log L25):
+[回执B] 问题版(清单12-4): 观察窗帧数=1, 平均UI帧耗时=25.39ms, 最差UI帧耗时=25.39ms, 平均栅格帧耗时=1.17ms, 最差栅格帧耗时=1.17ms
+===
+判读: 修复后单次按键仅 _CounterSection 序号 +1, RebuildLabFixedPage 与 HeavyListView 均未重跑; 按键帧 UI 耗时 25.39ms -> 2.67ms, 栅格耗时 1.17ms -> 0.82ms。帧渲染图表 morph 描述: 两段观察窗各只含一帧(调试口径, setState 帧即全部), 图表表现为修复前一根 25ms 级高柱、修复后一根 3ms 级低柱, 无连续掉帧行。观察窗帧数=1 系调试模式按键帧为窗口内唯一时序上报帧, 前后同口径。

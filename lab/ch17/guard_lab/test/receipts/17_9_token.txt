@@ -1,0 +1,7 @@
+RECEIPT_BEGIN|17_9_token
+STEP|step1-未写先读|actual=null|expected=null|PASS
+STEP|step2-写后读|actual=demo-token-0123456789abcdef|expected=demo-token-0123456789abcdef|PASS
+STEP|step3-覆盖写|actual=demo-token-renewed|expected=demo-token-renewed|PASS
+STEP|step4-删后读|actual=null|expected=null|PASS
+STEP|step4-删后读-底层干净|actual=空|expected=空|PASS
+RECEIPT_END|17_9_token

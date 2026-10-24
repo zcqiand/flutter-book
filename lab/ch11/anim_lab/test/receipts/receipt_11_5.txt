@@ -1,0 +1,8 @@
+[11-5] t=0ms 测试：入口占位页就绪，push 清单生命周期页
+[11-5] t=20ms initState：控制器创建（vsync + 400ms），forward() 已启动
+[11-5] t=143ms 测试：push 后 200ms，缩放=1.000（initState 的 forward 已推进）
+[11-5] t=157ms 测试：settle，缩放=1.500（0.5+1.0×1.0 终态，进度到头）
+[11-5] t=157ms 测试：pop 指令发出
+[11-5] t=189ms dispose：开始释放（先还控制器再调 super）
+[11-5] t=189ms dispose：_controller.dispose() 完成，与 initState 成对闭环
+[11-5] t=191ms 测试：页面离栈，全程 FlutterError=0

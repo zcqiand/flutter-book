@@ -1,0 +1,26 @@
+ch10 patch-02 复验终态（2026-10-19）——清单 10-7 两处 validator 对调后
+===SYNC===
+lib/main.dart 与 chapters/chapter-010.md 清单 10-7 现文（L589-798）diff 逐字节一致（仅对调后两行：密码 length<6 ? '密码至少 6 位' : null；收货人 isEmpty ? '请填写收货人' : null）
+===FINAL ANALYZE===
+Flutter assets will be downloaded from https://pub.flutter-io.cn. Make sure you trust this source!
+Analyzing form_lab...                                           
+
+   info - Constructors for public widgets should have a named 'key' parameter. Try adding a named parameter to the constructor - lib\main.dart:20:9 - use_key_in_widget_constructors
+   info - Constructors for public widgets should have a named 'key' parameter. Try adding a named parameter to the constructor - lib\main.dart:32:9 - use_key_in_widget_constructors
+   info - Constructors for public widgets should have a named 'key' parameter. Try adding a named parameter to the constructor - lib\main.dart:72:9 - use_key_in_widget_constructors
+   info - Constructors for public widgets should have a named 'key' parameter. Try adding a named parameter to the constructor - lib\main.dart:140:9 - use_key_in_widget_constructors
+
+4 issues found. (ran in 3.0s)
+
+===FINAL TEST===
+Flutter assets will be downloaded from https://pub.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/qiand-life/1-projects/xr-knowledge-suite/output/xr-know-019/lab/ch10/form_lab/test/verify_10_7_test.dart
+00:00 +0: 两页共用同一组件类型：注册页 2 行、地址页 3 行
+00:00 +1: 注册页两道闸：邮箱校验拦截、onChanged 实抓回执
+00:01 +2: patch-02 复验：密码闸已翻正——123 短密码拦截出红字、提交回调不执行
+邮箱输入：a@b.com
+注册提交：a@b.com
+00:01 +3: patch-02 复验：收货人闸已翻正——留空拦截出红字、提交回调不执行
+地址提交：张三
+00:01 +4: 地址页回调档校验：手机号 11 位、地址 5 字规则如实生效
+00:01 +5: All tests passed!

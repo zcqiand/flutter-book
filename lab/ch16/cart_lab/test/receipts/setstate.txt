@@ -1,0 +1,9 @@
+RECEIPT_BEGIN|setstate
+STEP|step1-加购键盘|actual=共 1 种，合计 199.00 元|expected=共 1 种，合计 199.00 元|PASS
+STEP|step2-重复加购键盘(数量+1)|actual=共 1 种，合计 398.00 元|expected=共 1 种，合计 398.00 元|PASS
+STEP|step3-加购鼠标与显示器|actual=共 3 种，合计 1486.00 元|expected=共 3 种，合计 1486.00 元|PASS
+STEP|step4-键盘-1|actual=共 3 种，合计 1287.00 元|expected=共 3 种，合计 1287.00 元|PASS
+STEP|step5-键盘再-1(减到0移除)|actual=共 2 种，合计 1088.00 元|expected=共 2 种，合计 1088.00 元|PASS
+STEP|step6-鼠标+1|actual=共 2 种，合计 1177.00 元|expected=共 2 种，合计 1177.00 元|PASS
+STEP|step7-一键清空|actual=共 0 种，合计 0.00 元|expected=共 0 种，合计 0.00 元|PASS
+RECEIPT_END|setstate

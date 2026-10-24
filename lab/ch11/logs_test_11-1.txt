@@ -1,0 +1,11 @@
+Flutter assets will be downloaded from https://pub.flutter-io.cn. Make sure you trust this source!
+00:00 +0: loading D:/qiand-life/1-projects/xr-knowledge-suite/output/xr-know-019/lab/ch11/anim_lab/test/verify_11_1_test.dart
+00:00 +0: 清单11-1 列表项 AnimatedContainer 状态切换：高度/底色随点按进退
+[11-1] 初始：item0 盒高=64.0（目标高 56+底边距 8），文本=「需求评审」
+[11-1] 展开 tap 后 80ms：盒高=64.0（过渡中，非目标值）
+[11-1] 展开 tap 后 160ms：盒高=104.2（过渡中，非目标值）
+[11-1] 展开 tap 后 240ms：盒高=121.3（过渡中，非目标值）
+[11-1] settle：盒高=128.0（目标 120+边距 8），文本=「需求评审：已展开，点按收起」
+[11-1] 收起 tap 后 120ms：盒高=128.0（回落中）
+[11-1] settle：盒高=64.0（回到 56+8），文本=「需求评审」
+00:00 +1: All tests passed!

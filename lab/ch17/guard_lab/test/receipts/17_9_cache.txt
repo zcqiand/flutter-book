@@ -1,0 +1,7 @@
+RECEIPT_BEGIN|17_9_cache
+STEP|step1-写入三行|actual=3 行|expected=3 行|PASS
+STEP|step2-倒序首行|actual=文章三|expected=文章三|PASS
+STEP|step3-同id覆盖|actual=3 行, id1=文章一(更新)|expected=3 行, id1=文章一(更新)|PASS
+STEP|step4-删除id=2|actual=deleted=1, 剩2 行|expected=deleted=1, 剩2 行|PASS
+STEP|step5-清空后读|actual=0 行|expected=0 行|PASS
+RECEIPT_END|17_9_cache

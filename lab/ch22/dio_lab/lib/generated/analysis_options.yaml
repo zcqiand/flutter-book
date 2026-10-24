@@ -1,0 +1,18 @@
+# AUTO-WRITTEN BY scripts/gen-client.sh — DO NOT EDIT (regen wipes this dir).
+# 生成物保留 error/warning 级分析（类型检查全量），linter 风格规则与生成器
+# 固有噪声告警在本目录关闭；手写代码沿用仓库根 analysis_options。
+include: ../../analysis_options.yaml
+analyzer:
+  errors:
+    unused_import: ignore
+    strict_raw_type: ignore
+    unused_element_parameter: ignore
+linter:
+  rules:
+    no_leading_underscores_for_local_identifiers: false
+    use_function_type_syntax_for_parameters: false
+    unnecessary_this: false
+    unnecessary_lambdas: false
+    use_super_parameters: false
+    unnecessary_brace_in_string_interps: false
+    constant_identifier_names: false

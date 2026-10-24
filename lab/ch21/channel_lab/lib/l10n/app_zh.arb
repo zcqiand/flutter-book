@@ -1,0 +1,10 @@
+{
+  "@@locale": "zh",
+  "title": "电量通道",
+  "helloButton": "读取电量",
+  "batteryLevel": "当前电量：{level}%",
+  "notReadYet": "尚未读取",
+  "channelMissing": "当前平台未实现电量通道",
+  "hostNull": "读取失败：宿主回传为空",
+  "failWith": "读取失败：{reason}"
+}
