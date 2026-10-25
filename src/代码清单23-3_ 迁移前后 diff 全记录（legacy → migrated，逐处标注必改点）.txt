@@ -1,0 +1,43 @@
+# 【主题 API】
+- theme: ThemeData(
+-   primarySwatch: Colors.blue,
+-   visualDensity: VisualDensity.adaptivePlatformDensity,
+- ),
++ theme: ThemeData(
++   colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
++ ),
+# 【主题 API】
+- style: Theme.of(context).textTheme.bodyText1,
++ style: Theme.of(context).textTheme.bodyLarge,
+# 【组件变更】
+# 必改点（对照表登记，基线代码按来历纪律未含旧组件，故无 diff 行）：
+# 旧凸起按钮一族已从框架删除，一律对应换入按钮新族（如旧凸起按钮对应新凸起按钮），
+# 换完须按 M3 主题重验观感：新按钮族的形状、配色、水波纹全部改吃角色表
+# 必改点（对照表登记）：手写「启用 M3」的旧开关行（若工程里有）整行删除，
+# 新代际出厂即 M3，保留开关行反而是旧代际残留
+# 【状态管理改造】
+- import 'package:provider/provider.dart';
++ import 'package:flutter_riverpod/flutter_riverpod.dart';
+# 移除 package:provider 历史库依赖行（pubspec.yaml 的 dependencies 内，
+# 历史库不登记版本号，删除即净）；新增的 yaml 约束行是本清单唯一版本号出现位
++ flutter_riverpod: ^3.4.3
+- class TodoListModel extends ChangeNotifier {
++ class TodoListNotifier extends Notifier<List<Todo>> {
+-   List<Todo> get items => List<Todo>.unmodifiable(_todos);
+-   void add(String title) {
+-     _todos.add(Todo(title: title));
+-     notifyListeners();
+-   }
++   List<Todo> build() => <Todo>[const Todo(title: '学 Flutter')];
++   void add(String title) {
++     state = <Todo>[...state, Todo(title: title)];
++   }
+- MultiProvider(
+-   providers: [ChangeNotifierProvider<TodoListModel>(create: ...)],
+-   child: const LegacyTodoApp(),
+- )
++ ProviderScope(child: const MigratedTodoApp())
+- final TodoListModel model = context.watch<TodoListModel>();
++ final List<Todo> todos = ref.watch(todoListProvider);
+- onPressed: () => context.read<TodoListModel>().add('新待办'),
++ onPressed: () => ref.read(todoListProvider.notifier).add('新待办'),

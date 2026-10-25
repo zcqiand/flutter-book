@@ -1,0 +1,41 @@
+name: ci
+
+# saas-identity-platform-flutter (Flutter 3.47.6 stable, Android + Web)
+# 推送链:
+# - branch push(master)/PR → 只跑 test(对齐 .harness/stack.json 门禁 L1-L4;本仓 mock-friendly,
+#   无 Key 无 Docker 无网全绿,不需要 services 容器)
+# - tag push(v<X>.<Y>.<Z>-<YYYYMMDD> per tag 铁律) → test + web 镜像 build & push + VPS 部署
+#   (saas-flutter.xiangru.uk,saas 家族 X08 扩展槽位 2026-10-10 启用)
+# 镜像名/SSH 路径/部署脚本用 ${{ github.event.repository.name }} 避免跨仓劫持。
+on:
+  push:
+    branches: [master]
+    tags:
+      - "v*"
+  pull_request:
+    branches: [master]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # 版本钉死:与 version-lock.json 的 flutter 3.47.6 一致(禁漂移)
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.47.6"
+          channel: stable
+          cache: true
+      - name: pub get
+        run: flutter pub get
+      # 以下四步与 .harness/stack.json 门禁逐条对齐(本地门禁同一套命令):
+      # 不带 --dart-define —— 编译期空串不红,运行期 fail-fast 才红(prod 烘焙只在
+      # Dockerfile 里做,与 dev 姿态一致)
+      - name: L1 format
+        run: dart format --output=none --set-exit-if-changed .
+      - name: L3 analyze
+        run: flutter analyze
+      - name: L4 test
+        run: flutter test
+      - name: L2 build web (release)
+        run: flutter build web --release

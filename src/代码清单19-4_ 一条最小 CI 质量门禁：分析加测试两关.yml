@@ -1,0 +1,19 @@
+# 一条最小门禁：单 job 两关；多阶段编排、矩阵构建、缓存策略属第 31 章话题
+name: gate
+on:
+  push:
+  pull_request:
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          # 代际口径：只钉代际不钉补丁号
+          flutter-version: "3.47"
+      # 第一关：静态分析，抓姿势
+      - run: flutter analyze
+      # 第二关：单元与 Widget 全量；集成主流程在本地模拟器打卡，不进门禁
+      - run: flutter test

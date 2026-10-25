@@ -1,0 +1,48 @@
+# 段一：l10n.yaml（工程根目录）：声明 arb 位置与生成文件名，
+# flutter gen-l10n 据此生成强类型取词类，字符串漏译在编译期暴露
+arb-dir: lib/l10n
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+
+# --- pubspec.yaml 增量 ---
+dependencies:
+  flutter_localizations:
+    sdk: flutter
+# generate: true 让构建期自动跑代码生成本地化类
+flutter:
+  generate: true
+
+# --- app_en.arb / app_zh.arb ---
+# lib/l10n/app_en.arb（模板件：@ 元数据只活在模板里，其余语言件不重复）
+# 教学切片申报：此处仅摘演示键，实物另含失败面文案键（未读取/未实现/失败文案）
+{
+  "title": "Battery Channel",
+  "helloButton": "Read Battery",
+  "batteryLevel": "Battery level: {level}%",
+  "@batteryLevel": {
+    "placeholders": {
+      "level": { "type": "int" }
+    }
+  }
+}
+# lib/l10n/app_zh.arb（键与模板逐字一致，值换中文；{level} 占位符同名对应）
+{
+  "title": "电量通道",
+  "helloButton": "读取电量",
+  "batteryLevel": "当前电量：{level}%"
+}
+
+# --- main.dart MaterialApp 接线增量 ---
+import 'package:channel_lab/l10n/app_localizations.dart';
+// State 里持一个 Locale 字段，切换即重建：
+locale: _locale,
+// delegates 把取词能力接进控件树；supportedLocales 声明支持清单
+localizationsDelegates: AppLocalizations.localizationsDelegates,
+supportedLocales: AppLocalizations.supportedLocales,
+// 切换按钮示意：点按在 zh 与 en 之间翻转，MaterialApp 承接重建
+ElevatedButton(
+  onPressed: () => setState(() {
+    _locale = _locale == const Locale('zh') ? const Locale('en') : const Locale('zh');
+  }),
+  child: Text(_locale == const Locale('zh') ? 'English' : '中文'),
+),

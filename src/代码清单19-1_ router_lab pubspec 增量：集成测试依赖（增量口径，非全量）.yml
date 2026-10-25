@@ -1,0 +1,8 @@
+# router_lab/pubspec.yaml 增量口径：只列本章相关归属行，非全量文件
+dev_dependencies:
+  flutter_test: # 工程已有，照抄占位以示归属
+    sdk: flutter
+  flutter_lints: ^6.0.0 # 工程已有，原样保留
+  # 本章新增：集成测试依赖，SDK 内置，无版本号可写
+  integration_test:
+    sdk: flutter

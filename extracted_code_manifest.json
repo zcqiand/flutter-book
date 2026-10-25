@@ -1,0 +1,1290 @@
+[
+  {
+    "title": "代码清单1-1: 命令式写法——手动找到节点并修改",
+    "lang": "javascript",
+    "chapter_file": "chapter-001.md",
+    "line": 107,
+    "extracted_file": "src\\代码清单1-1_ 命令式写法——手动找到节点并修改.js",
+    "source": null
+  },
+  {
+    "title": "代码清单1-2: 声明式写法——描述界面，框架负责更新",
+    "lang": "dart",
+    "chapter_file": "chapter-001.md",
+    "line": 129,
+    "extracted_file": "src\\代码清单1-2_ 声明式写法——描述界面，框架负责更新.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单2-1: Dart 3 三特性——null safety、records 与模式匹配",
+    "lang": "dart",
+    "chapter_file": "chapter-002.md",
+    "line": 34,
+    "extracted_file": "src\\代码清单2-1_ Dart 3 三特性——null safety、records 与模式匹配.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单2-3: 类型安全改写练习（改写前）——dynamic 与 Map 裸解析",
+    "lang": "dart",
+    "chapter_file": "chapter-002.md",
+    "line": 127,
+    "extracted_file": "src\\代码清单2-3_ 类型安全改写练习（改写前）——dynamic 与 Map 裸解析.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单2-5: 类型安全改写练习（改写后）——模型类与空安全",
+    "lang": "dart",
+    "chapter_file": "chapter-002.md",
+    "line": 159,
+    "extracted_file": "src\\代码清单2-5_ 类型安全改写练习（改写后）——模型类与空安全.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单2-7: 配置中国镜像环境变量（macOS/Linux）",
+    "lang": "bash",
+    "chapter_file": "chapter-002.md",
+    "line": 225,
+    "extracted_file": "src\\代码清单2-7_ 配置中国镜像环境变量（macOS_Linux）.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单2-8: 配置中国镜像环境变量（Windows PowerShell）",
+    "lang": "powershell",
+    "chapter_file": "chapter-002.md",
+    "line": 234,
+    "extracted_file": "src\\代码清单2-8_ 配置中国镜像环境变量（Windows PowerShell）.ps1",
+    "source": null
+  },
+  {
+    "title": "代码清单2-10: 环境体检、建项目与双端运行",
+    "lang": "bash",
+    "chapter_file": "chapter-002.md",
+    "line": 275,
+    "extracted_file": "src\\代码清单2-10_ 环境体检、建项目与双端运行.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单3-3: 名片卡片页完整代码（lib/main.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-003.md",
+    "line": 131,
+    "extracted_file": "src\\代码清单3-3_ 名片卡片页完整代码（lib_main.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单4-6: setState 高频错例，写进 build 方法体（错例示范，勿抄）",
+    "lang": "dart",
+    "chapter_file": "chapter-004.md",
+    "line": 115,
+    "extracted_file": "src\\代码清单4-6_ setState 高频错例，写进 build 方法体（错例示范，勿抄）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单4-1: 设置页原型完整代码（lib/main.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-004.md",
+    "line": 169,
+    "extracted_file": "src\\代码清单4-1_ 设置页原型完整代码（lib_main.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单4-2: 三档尺寸防溢出 widget 测试（test/layout_test.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-004.md",
+    "line": 399,
+    "extracted_file": "src\\代码清单4-2_ 三档尺寸防溢出 widget 测试（test_layout_test.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单4-4: 三交互合一页面完整代码（lib/main.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-004.md",
+    "line": 475,
+    "extracted_file": "src\\代码清单4-4_ 三交互合一页面完整代码（lib_main.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单5-1: ThemeData 全局主题配置与组件级覆盖完整代码（lib/main.dart，工程 theme_playground）",
+    "lang": "dart",
+    "chapter_file": "chapter-005.md",
+    "line": 58,
+    "extracted_file": "src\\代码清单5-1_ ThemeData 全局主题配置与组件级覆盖完整代码（lib_main.dart，工程 theme_playground）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单5-2: 暗色模式一键切换完整代码（lib/main.dart，工程 theme_playground 升级版）",
+    "lang": "dart",
+    "chapter_file": "chapter-005.md",
+    "line": 202,
+    "extracted_file": "src\\代码清单5-2_ 暗色模式一键切换完整代码（lib_main.dart，工程 theme_playground 升级版）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单5-4: Material 与 Cupertino 双风格同页对比完整代码（lib/main.dart，工程 theme_playground）",
+    "lang": "dart",
+    "chapter_file": "chapter-005.md",
+    "line": 364,
+    "extracted_file": "src\\代码清单5-4_ Material 与 Cupertino 双风格同页对比完整代码（lib_main.dart，工程 theme_playground）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单6-1: 条件渲染惯用法三式速览",
+    "lang": "dart",
+    "chapter_file": "chapter-006.md",
+    "line": 77,
+    "extracted_file": "src\\代码清单6-1_ 条件渲染惯用法三式速览.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单6-2: 搜索过滤联系人列表完整代码（lib/main.dart，工程 contact_filter）",
+    "lang": "dart",
+    "chapter_file": "chapter-006.md",
+    "line": 144,
+    "extracted_file": "src\\代码清单6-2_ 搜索过滤联系人列表完整代码（lib_main.dart，工程 contact_filter）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单6-4: 教学故意失败——无 key 状态错位复现代码（lib/main.dart，工程 key_bug_lab）",
+    "lang": "dart",
+    "chapter_file": "chapter-006.md",
+    "line": 304,
+    "extracted_file": "src\\代码清单6-4_ 教学故意失败——无 key 状态错位复现代码（lib_main.dart，工程 key_bug_lab）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单6-6: 修复——ValueKey 与 findChildIndexCallback 两处小改",
+    "lang": "dart",
+    "chapter_file": "chapter-006.md",
+    "line": 433,
+    "extracted_file": "src\\代码清单6-6_ 修复——ValueKey 与 findChildIndexCallback 两处小改.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单7-1: 倒计时状态页完整代码（lib/main.dart，工程 countdown_lab）",
+    "lang": "dart",
+    "chapter_file": "chapter-007.md",
+    "line": 110,
+    "extracted_file": "src\\代码清单7-1_ 倒计时状态页完整代码（lib_main.dart，工程 countdown_lab）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单7-3: 教学故意失败——忘记 cancel Timer 的泄漏复现（工程 countdown_lab_leak）",
+    "lang": "dart",
+    "chapter_file": "chapter-007.md",
+    "line": 272,
+    "extracted_file": "src\\代码清单7-3_ 教学故意失败——忘记 cancel Timer 的泄漏复现（工程 countdown_lab_leak）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单7-5: 修复——dispose 释放 Timer 一处小改",
+    "lang": "dart",
+    "chapter_file": "chapter-007.md",
+    "line": 411,
+    "extracted_file": "src\\代码清单7-5_ 修复——dispose 释放 Timer 一处小改.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单8-1: 复现 overflow 的最小工程（overflow_lab/lib/main.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-008.md",
+    "line": 86,
+    "extracted_file": "src\\代码清单8-1_ 复现 overflow 的最小工程（overflow_lab_lib_main.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单8-3: 修复——Expanded 接管剩余宽度",
+    "lang": "dart",
+    "chapter_file": "chapter-008.md",
+    "line": 189,
+    "extracted_file": "src\\代码清单8-3_ 修复——Expanded 接管剩余宽度.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单8-4: 复现 unbounded height 的最小工程（unbounded_lab/lib/main.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-008.md",
+    "line": 216,
+    "extracted_file": "src\\代码清单8-4_ 复现 unbounded height 的最小工程（unbounded_lab_lib_main.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单8-6: 修复——Expanded 包住 ListView",
+    "lang": "dart",
+    "chapter_file": "chapter-008.md",
+    "line": 349,
+    "extracted_file": "src\\代码清单8-6_ 修复——Expanded 包住 ListView.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单9-1: 事件循环排程演示（async_lab/lib/event_loop_demo.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-009.md",
+    "line": 34,
+    "extracted_file": "src\\代码清单9-1_ 事件循环排程演示（async_lab_lib_event_loop_demo.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单9-3: 同页 StreamBuilder 版与订阅清理（async_lab/lib/main.dart 整文件替换）",
+    "lang": "dart",
+    "chapter_file": "chapter-009.md",
+    "line": 112,
+    "extracted_file": "src\\代码清单9-3_ 同页 StreamBuilder 版与订阅清理（async_lab_lib_main.dart 整文件替换）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单9-4: 带加载态的模拟数据页 FutureBuilder 版（async_lab/lib/main.dart 整文件替换）",
+    "lang": "dart",
+    "chapter_file": "chapter-009.md",
+    "line": 258,
+    "extracted_file": "src\\代码清单9-4_ 带加载态的模拟数据页 FutureBuilder 版（async_lab_lib_main.dart 整文件替换）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单9-5: 教学故意失败版本：销毁后竞态复现（async_lab/lib/main.dart 整文件替换）",
+    "lang": "dart",
+    "chapter_file": "chapter-009.md",
+    "line": 361,
+    "extracted_file": "src\\代码清单9-5_ 教学故意失败版本：销毁后竞态复现（async_lab_lib_main.dart 整文件替换）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单9-7: 修复对照：mounted 检查版（只改 _RaceDetailPageState，其余同清单9-5）",
+    "lang": "dart",
+    "chapter_file": "chapter-009.md",
+    "line": 471,
+    "extracted_file": "src\\代码清单9-7_ 修复对照：mounted 检查版（只改 _RaceDetailPageState，其余同清单9-5）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单9-8: 教学故意失败版本：CPU 密集计算卡顿复现（isolate_lab/lib/main.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-009.md",
+    "line": 528,
+    "extracted_file": "src\\代码清单9-8_ 教学故意失败版本：CPU 密集计算卡顿复现（isolate_lab_lib_main.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单9-9: 修复：Isolate.run 把重计算挪出主 Isolate（isolate_lab/lib/main.dart 局部替换）",
+    "lang": "dart",
+    "chapter_file": "chapter-009.md",
+    "line": 608,
+    "extracted_file": "src\\代码清单9-9_ 修复：Isolate.run 把重计算挪出主 Isolate（isolate_lab_lib_main.dart 局部替换）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单10-1: 注册表单基准版：实时校验与提交拦截（form_lab/lib/main.dart 整文件替换）",
+    "lang": "dart",
+    "chapter_file": "chapter-010.md",
+    "line": 39,
+    "extracted_file": "src\\代码清单10-1_ 注册表单基准版：实时校验与提交拦截（form_lab_lib_main.dart 整文件替换）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单10-3: 动态增删表单项：ValueKey 正确版与缺 key 对照（form_lab/lib/main.dart 整文件替换）",
+    "lang": "dart",
+    "chapter_file": "chapter-010.md",
+    "line": 203,
+    "extracted_file": "src\\代码清单10-3_ 动态增删表单项：ValueKey 正确版与缺 key 对照（form_lab_lib_main.dart 整文件替换）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单10-5: 参数化三档演进：同一组件的必选/可选/回调三形态",
+    "lang": "dart",
+    "chapter_file": "chapter-010.md",
+    "line": 411,
+    "extracted_file": "src\\代码清单10-5_ 参数化三档演进：同一组件的必选_可选_回调三形态.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单10-6: 参数化表单组件库（form_lab/lib/form_widgets.dart 全文件）",
+    "lang": "dart",
+    "chapter_file": "chapter-010.md",
+    "line": 523,
+    "extracted_file": "src\\代码清单10-6_ 参数化表单组件库（form_lab_lib_form_widgets.dart 全文件）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单10-7: 两页复用对照：注册页与收货地址页（差异只在参数，逐字给出）",
+    "lang": "dart",
+    "chapter_file": "chapter-010.md",
+    "line": 610,
+    "extracted_file": "src\\代码清单10-7_ 两页复用对照：注册页与收货地址页（差异只在参数，逐字给出）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单11-1: 列表项隐式动画：AnimatedContainer 状态切换（anim_lab/lib/main.dart 整文件替换）",
+    "lang": "dart",
+    "chapter_file": "chapter-011.md",
+    "line": 37,
+    "extracted_file": "src\\代码清单11-1_ 列表项隐式动画：AnimatedContainer 状态切换（anim_lab_lib_main.dart 整文件替换）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单11-3: Hero 转场源页：列表页（anim_lab/lib/main.dart 整文件替换）",
+    "lang": "dart",
+    "chapter_file": "chapter-011.md",
+    "line": 178,
+    "extracted_file": "src\\代码清单11-3_ Hero 转场源页：列表页（anim_lab_lib_main.dart 整文件替换）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单11-4: Hero 转场目标页：详情页（anim_lab/lib/detail_page.dart 新建）",
+    "lang": "dart",
+    "chapter_file": "chapter-011.md",
+    "line": 252,
+    "extracted_file": "src\\代码清单11-4_ Hero 转场目标页：详情页（anim_lab_lib_detail_page.dart 新建）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单11-6: AnimationController + Tween/Curve 基础驱动（anim_lab/lib/main.dart 整文件替换）",
+    "lang": "dart",
+    "chapter_file": "chapter-011.md",
+    "line": 336,
+    "extracted_file": "src\\代码清单11-6_ AnimationController + Tween_Curve 基础驱动（anim_lab_lib_main.dart 整文件替换）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单11-8: 控制器生命周期纪律：initState 建与 dispose 释放成对（anim_lab/lib/main.dart 整文件替换）",
+    "lang": "dart",
+    "chapter_file": "chapter-011.md",
+    "line": 477,
+    "extracted_file": "src\\代码清单11-8_ 控制器生命周期纪律：initState 建与 dispose 释放成对（anim_lab_lib_main.dart 整文件替换）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单11-11: 自定义进度动画组件：CurveProgressBar 完整实现（anim_lab/lib/main.dart 整文件替换）",
+    "lang": "dart",
+    "chapter_file": "chapter-011.md",
+    "line": 639,
+    "extracted_file": "src\\代码清单11-11_ 自定义进度动画组件：CurveProgressBar 完整实现（anim_lab_lib_main.dart 整文件替换）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单12-1: AdaptiveDemoPage 主体, LayoutBuilder 断点决策三套布局",
+    "lang": "dart",
+    "chapter_file": "chapter-012.md",
+    "line": 31,
+    "extracted_file": "src\\代码清单12-1_ AdaptiveDemoPage 主体, LayoutBuilder 断点决策三套布局.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单12-2: 多端差异适配要点, SafeArea 与键盘与指针判别",
+    "lang": "dart",
+    "chapter_file": "chapter-012.md",
+    "line": 214,
+    "extracted_file": "src\\代码清单12-2_ 多端差异适配要点, SafeArea 与键盘与指针判别.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单12-4: RebuildLabPage 问题版, 顶层 setState 波及无关重子树",
+    "lang": "dart",
+    "chapter_file": "chapter-012.md",
+    "line": 324,
+    "extracted_file": "src\\代码清单12-4_ RebuildLabPage 问题版, 顶层 setState 波及无关重子树.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单12-6: const 化判据正反例",
+    "lang": "dart",
+    "chapter_file": "chapter-012.md",
+    "line": 416,
+    "extracted_file": "src\\代码清单12-6_ const 化判据正反例.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单12-7: 状态下沉修复版, 与清单 12-4 逐行对应",
+    "lang": "dart",
+    "chapter_file": "chapter-012.md",
+    "line": 467,
+    "extracted_file": "src\\代码清单12-7_ 状态下沉修复版, 与清单 12-4 逐行对应.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单13-1: router_lab 工程 pubspec 依赖清单",
+    "lang": "yaml",
+    "chapter_file": "chapter-013.md",
+    "line": 41,
+    "extracted_file": "src\\代码清单13-1_ router_lab 工程 pubspec 依赖清单.yml",
+    "source": "code/router_lab/pubspec.yaml"
+  },
+  {
+    "title": "代码清单13-2: 实战 A 入口、命名路由表与登录页（lib/main_navigator.dart 上半）",
+    "lang": "dart",
+    "chapter_file": "chapter-013.md",
+    "line": 69,
+    "extracted_file": "src\\代码清单13-2_ 实战 A 入口、命名路由表与登录页（lib_main_navigator.dart 上半）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单13-3: 实战 A 列表页与详情页——构造参数传参 + pop 回传收藏结果（lib/main_navigator.dart 下半）",
+    "lang": "dart",
+    "chapter_file": "chapter-013.md",
+    "line": 165,
+    "extracted_file": "src\\代码清单13-3_ 实战 A 列表页与详情页——构造参数传参 + pop 回传收藏结果（lib_main_navigator.dart 下半）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单13-5: 实战 B GoRouter 路由表、redirect 登录守卫与入口（lib/main_gorouter.dart 上半）",
+    "lang": "dart",
+    "chapter_file": "chapter-013.md",
+    "line": 337,
+    "extracted_file": "src\\代码清单13-5_ 实战 B GoRouter 路由表、redirect 登录守卫与入口（lib_main_gorouter.dart 上半）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单13-6: 实战 B 壳层与三个页面（lib/main_gorouter.dart 下半）",
+    "lang": "dart",
+    "chapter_file": "chapter-013.md",
+    "line": 426,
+    "extracted_file": "src\\代码清单13-6_ 实战 B 壳层与三个页面（lib_main_gorouter.dart 下半）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单13-9: redirect 守卫最小 widget test（test/redirect_guard_test.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-013.md",
+    "line": 672,
+    "extracted_file": "src\\代码清单13-9_ redirect 守卫最小 widget test（test_redirect_guard_test.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单14-1: dio_lab 工程 pubspec 依赖清单",
+    "lang": "yaml",
+    "chapter_file": "chapter-014.md",
+    "line": 17,
+    "extracted_file": "src\\代码清单14-1_ dio_lab 工程 pubspec 依赖清单.yml",
+    "source": "code/dio_lab/pubspec.yaml"
+  },
+  {
+    "title": "代码清单14-2: dio 客户端封装与拦截器链（lib/core/api_client.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-014.md",
+    "line": 48,
+    "extracted_file": "src\\代码清单14-2_ dio 客户端封装与拦截器链（lib_core_api_client.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单14-4: 统一错误模型与异常映射（lib/core/api_error.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-014.md",
+    "line": 249,
+    "extracted_file": "src\\代码清单14-4_ 统一错误模型与异常映射（lib_core_api_error.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单14-5: 三态页 setState 驱动版（lib/features/article_feed_page.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-014.md",
+    "line": 325,
+    "extracted_file": "src\\代码清单14-5_ 三态页 setState 驱动版（lib_features_article_feed_page.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单14-6: Map 手工解析的翻车复现（lib/legacy/manual_parse.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-014.md",
+    "line": 446,
+    "extracted_file": "src\\代码清单14-6_ Map 手工解析的翻车复现（lib_legacy_manual_parse.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单14-8: 嵌套模型与泛型分页包裹（lib/models/article.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-014.md",
+    "line": 551,
+    "extracted_file": "src\\代码清单14-8_ 嵌套模型与泛型分页包裹（lib_models_article.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单14-9: 序列化往返测试（test/roundtrip_test.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-014.md",
+    "line": 645,
+    "extracted_file": "src\\代码清单14-9_ 序列化往返测试（test_roundtrip_test.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单15-1: riverpod_lab 工程 pubspec 依赖清单",
+    "lang": "yaml",
+    "chapter_file": "chapter-015.md",
+    "line": 36,
+    "extracted_file": "src\\代码清单15-1_ riverpod_lab 工程 pubspec 依赖清单.yml",
+    "source": "code/riverpod_lab/pubspec.yaml"
+  },
+  {
+    "title": "代码清单15-2: Riverpod Provider 分层骨架（lib/core/feed_providers.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-015.md",
+    "line": 83,
+    "extracted_file": "src\\代码清单15-2_ Riverpod Provider 分层骨架（lib_core_feed_providers.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单15-3: FeedNotifier 状态收敛（lib/core/feed_notifier.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-015.md",
+    "line": 196,
+    "extracted_file": "src\\代码清单15-3_ FeedNotifier 状态收敛（lib_core_feed_notifier.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单15-4: family 参数化与 autoDispose 演示（lib/features/article_detail_providers.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-015.md",
+    "line": 302,
+    "extracted_file": "src\\代码清单15-4_ family 参数化与 autoDispose 演示（lib_features_article_detail_providers.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单15-6: 三态页 Riverpod 重构版（lib/features/article_feed_page.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-015.md",
+    "line": 415,
+    "extracted_file": "src\\代码清单15-6_ 三态页 Riverpod 重构版（lib_features_article_feed_page.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单16-1: cart_lab 工程 pubspec 依赖清单",
+    "lang": "yaml",
+    "chapter_file": "chapter-016.md",
+    "line": 52,
+    "extracted_file": "src\\代码清单16-1_ cart_lab 工程 pubspec 依赖清单.yml",
+    "source": "code/cart_lab/pubspec.yaml"
+  },
+  {
+    "title": "代码清单16-2: 共享需求规格与不可变模型（lib/core/cart.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-016.md",
+    "line": 78,
+    "extracted_file": "src\\代码清单16-2_ 共享需求规格与不可变模型（lib_core_cart.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单16-3: setState 版购物车（lib/versions/setstate_version.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-016.md",
+    "line": 150,
+    "extracted_file": "src\\代码清单16-3_ setState 版购物车（lib_versions_setstate_version.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单16-4: InheritedWidget 版购物车（lib/versions/inherited_version.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-016.md",
+    "line": 218,
+    "extracted_file": "src\\代码清单16-4_ InheritedWidget 版购物车（lib_versions_inherited_version.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单16-5: Riverpod 版购物车（lib/versions/riverpod_version.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-016.md",
+    "line": 312,
+    "extracted_file": "src\\代码清单16-5_ Riverpod 版购物车（lib_versions_riverpod_version.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单16-6: Bloc 版购物车（lib/versions/bloc_version.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-016.md",
+    "line": 370,
+    "extracted_file": "src\\代码清单16-6_ Bloc 版购物车（lib_versions_bloc_version.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单17-1: 三层异常触发演示（lib/demo/exception_lab.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-017.md",
+    "line": 27,
+    "extracted_file": "src\\代码清单17-1_ 三层异常触发演示（lib_demo_exception_lab.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单17-3: 全局捕获骨架：三层缝位一次挂齐（lib/main.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-017.md",
+    "line": 130,
+    "extracted_file": "src\\代码清单17-3_ 全局捕获骨架：三层缝位一次挂齐（lib_main.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单17-4: 分区降级边界与人为崩溃验证页（lib/demo/crash_lab.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-017.md",
+    "line": 267,
+    "extracted_file": "src\\代码清单17-4_ 分区降级边界与人为崩溃验证页（lib_demo_crash_lab.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单17-6: guard_lab 工程 pubspec 依赖清单",
+    "lang": "yaml",
+    "chapter_file": "chapter-017.md",
+    "line": 427,
+    "extracted_file": "src\\代码清单17-6_ guard_lab 工程 pubspec 依赖清单.yml",
+    "source": "code/guard_lab/pubspec.yaml"
+  },
+  {
+    "title": "代码清单17-7: shared_preferences 设置持久化（lib/storage/settings_store.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-017.md",
+    "line": 455,
+    "extracted_file": "src\\代码清单17-7_ shared_preferences 设置持久化（lib_storage_settings_store.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单17-8: 三件套存储层：sqflite 离线缓存与 flutter_secure_storage token（lib/storage/cache_store.dart 与 lib/storage/token_store.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-017.md",
+    "line": 496,
+    "extracted_file": "src\\代码清单17-8_ 三件套存储层：sqflite 离线缓存与 flutter_secure_storage token（lib_storage_cache_store.dart 与 lib_storage_token_store.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单18-1: FeedNotifier 单元测试：成功、空态、错误三路径（test/feed_notifier_test.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-018.md",
+    "line": 34,
+    "extracted_file": "src\\代码清单18-1_ FeedNotifier 单元测试：成功、空态、错误三路径（test_feed_notifier_test.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单18-3: riverpod_lab pubspec dev 区与替身库增量（增量口径，非全量）",
+    "lang": "yaml",
+    "chapter_file": "chapter-018.md",
+    "line": 183,
+    "extracted_file": "src\\代码清单18-3_ riverpod_lab pubspec dev 区与替身库增量（增量口径，非全量）.yml",
+    "source": "code/riverpod_lab/pubspec.yaml"
+  },
+  {
+    "title": "代码清单18-4: mocktail 版数据层替身与 override 接线（test/fakes/fake_feed_repository.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-018.md",
+    "line": 195,
+    "extracted_file": "src\\代码清单18-4_ mocktail 版数据层替身与 override 接线（test_fakes_fake_feed_repository.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单18-5: 替多了反例：替掉被测逻辑后测试空转（test/bad/over_mocked_test.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-018.md",
+    "line": 279,
+    "extracted_file": "src\\代码清单18-5_ 替多了反例：替掉被测逻辑后测试空转（test_bad_over_mocked_test.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单18-6: Widget 测试：WidgetTester 驱动三态页切换断言（test/feed_page_widget_test.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-018.md",
+    "line": 327,
+    "extracted_file": "src\\代码清单18-6_ Widget 测试：WidgetTester 驱动三态页切换断言（test_feed_page_widget_test.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单19-1: router_lab pubspec 增量：集成测试依赖（增量口径，非全量）",
+    "lang": "yaml",
+    "chapter_file": "chapter-019.md",
+    "line": 50,
+    "extracted_file": "src\\代码清单19-1_ router_lab pubspec 增量：集成测试依赖（增量口径，非全量）.yml",
+    "source": "code/router_lab/pubspec.yaml"
+  },
+  {
+    "title": "代码清单19-2: 集成测试主流程脚本：登录、列表、详情三步编排（integration_test/app_test.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-019.md",
+    "line": 63,
+    "extracted_file": "src\\代码清单19-2_ 集成测试主流程脚本：登录、列表、详情三步编排（integration_test_app_test.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单19-4: 一条最小 CI 质量门禁：分析加测试两关",
+    "lang": "yaml",
+    "chapter_file": "chapter-019.md",
+    "line": 151,
+    "extracted_file": "src\\代码清单19-4_ 一条最小 CI 质量门禁：分析加测试两关.yml",
+    "source": "code/router_lab/.github/workflows/gate.yml"
+  },
+  {
+    "title": "代码清单20-1: Android release 构建（router_lab 根目录执行）",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 46,
+    "extracted_file": "src\\代码清单20-1_ Android release 构建（router_lab 根目录执行）.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-2: Web release 构建（router_lab 根目录执行）",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 57,
+    "extracted_file": "src\\代码清单20-2_ Web release 构建（router_lab 根目录执行）.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单21-1: Dart 侧电量通道调用与界面",
+    "lang": "dart",
+    "chapter_file": "chapter-021.md",
+    "line": 43,
+    "extracted_file": "src\\代码清单21-1_ Dart 侧电量通道调用与界面.dart",
+    "source": "code/channel_lab/lib/main.dart"
+  },
+  {
+    "title": "代码清单21-2: Android 侧 MethodChannel 实现",
+    "lang": "kotlin",
+    "chapter_file": "chapter-021.md",
+    "line": 124,
+    "extracted_file": "src\\代码清单21-2_ Android 侧 MethodChannel 实现.kt",
+    "source": "code/channel_lab/android/app/src/main/kotlin/com/example/channel_lab/MainActivity.kt"
+  },
+  {
+    "title": "代码清单21-3: iOS 侧 MethodChannel 实现（代码走读申报）",
+    "lang": "swift",
+    "chapter_file": "chapter-021.md",
+    "line": 171,
+    "extracted_file": "src\\代码清单21-3_ iOS 侧 MethodChannel 实现（代码走读申报）.swift",
+    "source": "code/channel_lab/ios/Runner/AppDelegate.swift"
+  },
+  {
+    "title": "代码清单21-5: --dart-define 键值与 flavors 变体配置（Dart 侧编译期常量读取）",
+    "lang": "dart",
+    "chapter_file": "chapter-021.md",
+    "line": 255,
+    "extracted_file": "src\\代码清单21-5_ --dart-define 键值与 flavors 变体配置（Dart 侧编译期常量读取）.dart",
+    "source": "code/channel_lab/lib/main.dart"
+  },
+  {
+    "title": "代码清单21-6: --dart-define 键值与 flavors 变体配置（flavors 变体，Kotlin DSL）",
+    "lang": "kotlin",
+    "chapter_file": "chapter-021.md",
+    "line": 264,
+    "extracted_file": "src\\代码清单21-6_ --dart-define 键值与 flavors 变体配置（flavors 变体，Kotlin DSL）.kt",
+    "source": "code/channel_lab/android/app/build.gradle.kts"
+  },
+  {
+    "title": "代码清单21-7: --dart-define 键值与 flavors 变体配置（双环境构建命令）",
+    "lang": "shell",
+    "chapter_file": "chapter-021.md",
+    "line": 284,
+    "extracted_file": "src\\代码清单21-7_ --dart-define 键值与 flavors 变体配置（双环境构建命令）.sh",
+    "source": "code/channel_lab/android/app/build.gradle.kts"
+  },
+  {
+    "title": "代码清单21-9: 签名配置与产物构建命令（环境变量注入，Kotlin DSL 增量）",
+    "lang": "kotlin",
+    "chapter_file": "chapter-021.md",
+    "line": 339,
+    "extracted_file": "src\\代码清单21-9_ 签名配置与产物构建命令（环境变量注入，Kotlin DSL 增量）.kt",
+    "source": "code/channel_lab/android/app/build.gradle.kts"
+  },
+  {
+    "title": "代码清单21-11: l10n 接入全件",
+    "lang": "yaml",
+    "chapter_file": "chapter-021.md",
+    "line": 400,
+    "extracted_file": "src\\代码清单21-11_ l10n 接入全件.yml",
+    "source": "code/channel_lab/lib/l10n/app_en.arb"
+  },
+  {
+    "title": "代码清单22-1: 登录与受保护接口的契约定义（dio_lab/contract/main.tsp）",
+    "lang": "tsp",
+    "chapter_file": "chapter-022.md",
+    "line": 17,
+    "extracted_file": "src\\代码清单22-1_ 登录与受保护接口的契约定义（dio_lab_contract_main.tsp）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单22-2: 契约生成脚本教学版（dio_lab/scripts/gen-client.sh）",
+    "lang": "bash",
+    "chapter_file": "chapter-022.md",
+    "line": 82,
+    "extracted_file": "src\\代码清单22-2_ 契约生成脚本教学版（dio_lab_scripts_gen-client.sh）.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单22-4: 装配层换代：生成客户端与双缝拦截器链（dio_lab/lib/core/api_client.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-022.md",
+    "line": 172,
+    "extracted_file": "src\\代码清单22-4_ 装配层换代：生成客户端与双缝拦截器链（dio_lab_lib_core_api_client.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单22-5: token 注入拦截器与令牌存取缝（dio_lab/lib/core/token_interceptor.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-022.md",
+    "line": 240,
+    "extracted_file": "src\\代码清单22-5_ token 注入拦截器与令牌存取缝（dio_lab_lib_core_token_interceptor.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单22-7: 401 会话守卫与全局页面栈钥匙（dio_lab/lib/core/session_guard.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-022.md",
+    "line": 332,
+    "extracted_file": "src\\代码清单22-7_ 401 会话守卫与全局页面栈钥匙（dio_lab_lib_core_session_guard.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单23-1: 迁移前基线完整代码（lib/main.dart，工程 migration_lab/legacy）",
+    "lang": "dart",
+    "chapter_file": "chapter-023.md",
+    "line": 16,
+    "extracted_file": "src\\代码清单23-1_ 迁移前基线完整代码（lib_main.dart，工程 migration_lab_legacy）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单23-2: 迁移后完整代码（lib/main.dart，工程 migration_lab/migrated）",
+    "lang": "dart",
+    "chapter_file": "chapter-023.md",
+    "line": 239,
+    "extracted_file": "src\\代码清单23-2_ 迁移后完整代码（lib_main.dart，工程 migration_lab_migrated）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单23-3: 迁移前后 diff 全记录（legacy → migrated，逐处标注必改点）",
+    "lang": "diff",
+    "chapter_file": "chapter-023.md",
+    "line": 332,
+    "extracted_file": "src\\代码清单23-3_ 迁移前后 diff 全记录（legacy → migrated，逐处标注必改点）.txt",
+    "source": null
+  },
+  {
+    "title": "代码清单24-1: 案例仓依赖清单（pubspec.yaml 截取）",
+    "lang": "yaml",
+    "chapter_file": "chapter-024.md",
+    "line": 25,
+    "extracted_file": "src\\代码清单24-1_ 案例仓依赖清单（pubspec.yaml 截取）.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单24-2: 入口装配与首屏状态门（lib/main.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-024.md",
+    "line": 68,
+    "extracted_file": "src\\代码清单24-2_ 入口装配与首屏状态门（lib_main.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单24-3: Riverpod Provider 图装配：dio、拦截器与生成客户端（lib/core/auth/providers.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-024.md",
+    "line": 114,
+    "extracted_file": "src\\代码清单24-3_ Riverpod Provider 图装配：dio、拦截器与生成客户端（lib_core_auth_providers.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单24-4: TokenStore 双端存储缝：抽象与安全存储实现（lib/core/auth/token_store.dart 与 lib/core/auth/secure_token_store.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-024.md",
+    "line": 165,
+    "extracted_file": "src\\代码清单24-4_ TokenStore 双端存储缝：抽象与安全存储实现（lib_core_auth_token_store.dart 与 lib_core_auth_secure_token_store.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单24-5: 鉴权拦截器与会话守卫信号（lib/core/api/auth_interceptor.dart 与 lib/core/api/session_guard.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-024.md",
+    "line": 238,
+    "extracted_file": "src\\代码清单24-5_ 鉴权拦截器与会话守卫信号（lib_core_api_auth_interceptor.dart 与 lib_core_api_session_guard.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单24-6: 会话控制器：登录、启动恢复、失效处置与登出（lib/core/auth/auth_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-024.md",
+    "line": 296,
+    "extracted_file": "src\\代码清单24-6_ 会话控制器：登录、启动恢复、失效处置与登出（lib_core_auth_auth_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单24-7: 接样单列表控制器与页面消费（lib/features/receipts/receipt_list_controller.dart 与 lib/features/receipts/receipts_list_page.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-024.md",
+    "line": 433,
+    "extracted_file": "src\\代码清单24-7_ 接样单列表控制器与页面消费（lib_features_receipts_receipt_list_controller.dart 与 lib_features_receipts_receipts_list_page.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单24-8: 租户切换链：账户页与控制器（lib/features/account/account_page.dart 与 lib/core/auth/auth_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-024.md",
+    "line": 576,
+    "extracted_file": "src\\代码清单24-8_ 租户切换链：账户页与控制器（lib_features_account_account_page.dart 与 lib_core_auth_auth_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单25-2: 环节与动作的中文标签（lib/features/receipts/flow_status_label.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-025.md",
+    "line": 17,
+    "extracted_file": "src\\代码清单25-2_ 环节与动作的中文标签（lib_features_receipts_flow_status_label.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单25-1: 业务 API 的注册处（lib/features/receipts/receipt_providers.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-025.md",
+    "line": 50,
+    "extracted_file": "src\\代码清单25-1_ 业务 API 的注册处（lib_features_receipts_receipt_providers.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单25-3: 三态过滤列表：过滤值、触发点与四态渲染（lib/features/receipts/receipts_list_page.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-025.md",
+    "line": 119,
+    "extracted_file": "src\\代码清单25-3_ 三态过滤列表：过滤值、触发点与四态渲染（lib_features_receipts_receipts_list_page.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单25-4: 表单页：提交分流、多行拆解与必填行（lib/features/receipts/receipt_form_page.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-025.md",
+    "line": 311,
+    "extracted_file": "src\\代码清单25-4_ 表单页：提交分流、多行拆解与必填行（lib_features_receipts_receipt_form_page.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单25-5: 表单控制器：四态状态机与创建/更新双入口（lib/features/receipts/receipt_form_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-025.md",
+    "line": 402,
+    "extracted_file": "src\\代码清单25-5_ 表单控制器：四态状态机与创建_更新双入口（lib_features_receipts_receipt_form_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单25-6: 删除确认与删除动作（lib/features/receipts/receipt_detail_page.dart 与 receipt_detail_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-025.md",
+    "line": 476,
+    "extracted_file": "src\\代码清单25-6_ 删除确认与删除动作（lib_features_receipts_receipt_detail_page.dart 与 receipt_detail_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单25-7: act 三动作（lib/features/receipts/receipt_detail_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-025.md",
+    "line": 536,
+    "extracted_file": "src\\代码清单25-7_ act 三动作（lib_features_receipts_receipt_detail_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单25-8: 操作人身份解析与 act 按钮组（lib/features/receipts/receipt_detail_page.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-025.md",
+    "line": 575,
+    "extracted_file": "src\\代码清单25-8_ 操作人身份解析与 act 按钮组（lib_features_receipts_receipt_detail_page.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单25-9: ext 动态字段：按定义生成四型控件（lib/features/receipts/sample_ext_page.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-025.md",
+    "line": 627,
+    "extracted_file": "src\\代码清单25-9_ ext 动态字段：按定义生成四型控件（lib_features_receipts_sample_ext_page.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单25-10: 详情页样品区与流程历史时间线（lib/features/receipts/receipt_detail_page.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-025.md",
+    "line": 729,
+    "extracted_file": "src\\代码清单25-10_ 详情页样品区与流程历史时间线（lib_features_receipts_receipt_detail_page.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单26-1: 任务分配队列控制器：五态状态机与批量流转（lib/features/receipts/task_queue_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-026.md",
+    "line": 40,
+    "extracted_file": "src\\代码清单26-1_ 任务分配队列控制器：五态状态机与批量流转（lib_features_receipts_task_queue_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单26-2: 单行安排：指派检测人与计划日期（lib/features/receipts/task_assign_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-026.md",
+    "line": 204,
+    "extracted_file": "src\\代码清单26-2_ 单行安排：指派检测人与计划日期（lib_features_receipts_task_assign_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单26-3: verdict 判定下拉与未判定清空（lib/features/receipts/data_entry_sheet.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-026.md",
+    "line": 279,
+    "extracted_file": "src\\代码清单26-3_ verdict 判定下拉与未判定清空（lib_features_receipts_data_entry_sheet.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单26-4: 录入收窗控制器：改判写态与按既有记录分派落库（lib/features/receipts/data_entry_sheet_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-026.md",
+    "line": 310,
+    "extracted_file": "src\\代码清单26-4_ 录入收窗控制器：改判写态与按既有记录分派落库（lib_features_receipts_data_entry_sheet_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单26-5: 报告四阶段队列控制器：按阶段参数化（lib/features/receipts/report_phase_queue_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-026.md",
+    "line": 456,
+    "extracted_file": "src\\代码清单26-5_ 报告四阶段队列控制器：按阶段参数化（lib_features_receipts_report_phase_queue_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单26-6: 同一页面模板四次实例化：报告队列四入口（lib/features/receipts/receipts_list_page.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-026.md",
+    "line": 621,
+    "extracted_file": "src\\代码清单26-6_ 同一页面模板四次实例化：报告队列四入口（lib_features_receipts_receipts_list_page.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单26-7: 报告预览页归集链：三源聚合一处（lib/features/receipts/report_preview_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-026.md",
+    "line": 704,
+    "extracted_file": "src\\代码清单26-7_ 报告预览页归集链：三源聚合一处（lib_features_receipts_report_preview_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单27-1: 报文级替身接线：DioAdapter 对真实端点逐个 mock（test/features/receipts/receipt_act_test.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-027.md",
+    "line": 19,
+    "extracted_file": "src\\代码清单27-1_ 报文级替身接线：DioAdapter 对真实端点逐个 mock（test_features_receipts_receipt_act_test.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单27-2: 报文级 mock 上的交互用例：按钮组与提交链路（test/features/receipts/receipt_act_test.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-027.md",
+    "line": 129,
+    "extracted_file": "src\\代码清单27-2_ 报文级 mock 上的交互用例：按钮组与提交链路（test_features_receipts_receipt_act_test.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单27-3: 核心业务页 Widget 测试（pumpDetail 装配，test/features/receipts/receipt_detail_page_test.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-027.md",
+    "line": 175,
+    "extracted_file": "src\\代码清单27-3_ 核心业务页 Widget 测试（pumpDetail 装配，test_features_receipts_receipt_detail_page_test.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单27-4: 核心业务页 Widget 测试（代表性渲染用例，同文件截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-027.md",
+    "line": 216,
+    "extracted_file": "src\\代码清单27-4_ 核心业务页 Widget 测试（代表性渲染用例，同文件截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单27-5: 案例仓依赖锁定（pubspec.yaml 截取，版本号唯一落位）",
+    "lang": "yaml",
+    "chapter_file": "chapter-027.md",
+    "line": 241,
+    "extracted_file": "src\\代码清单27-5_ 案例仓依赖锁定（pubspec.yaml 截取，版本号唯一落位）.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单27-6: 双产物构建命令与产物路径（回收 21.4 命令形态）",
+    "lang": "shell",
+    "chapter_file": "chapter-027.md",
+    "line": 266,
+    "extracted_file": "src\\代码清单27-6_ 双产物构建命令与产物路径（回收 21.4 命令形态）.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单27-7: 生产部署节逐字摘录（README，节略上下文行与 SSO 白名单挂账行）",
+    "lang": "markdown",
+    "chapter_file": "chapter-027.md",
+    "line": 281,
+    "extracted_file": "src\\代码清单27-7_ 生产部署节逐字摘录（README，节略上下文行与 SSO 白名单挂账行）.md",
+    "source": null
+  },
+  {
+    "title": "代码清单27-8: 部署脚本关键段：起容器与双探活（deploy/lab-management-system-flutter.sh 截取）",
+    "lang": "shell",
+    "chapter_file": "chapter-027.md",
+    "line": 292,
+    "extracted_file": "src\\代码清单27-8_ 部署脚本关键段：起容器与双探活（deploy_lab-management-system-flutter.sh 截取）.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单28-1: 应用配置与启动校验（lib/core/config/app_config.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-028.md",
+    "line": 43,
+    "extracted_file": "src\\代码清单28-1_ 应用配置与启动校验（lib_core_config_app_config.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单28-2: 入口装配与首屏状态门（lib/main.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-028.md",
+    "line": 84,
+    "extracted_file": "src\\代码清单28-2_ 入口装配与首屏状态门（lib_main.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单28-3: 登录链路与四分支错误映射（lib/core/auth/auth_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-028.md",
+    "line": 196,
+    "extracted_file": "src\\代码清单28-3_ 登录链路与四分支错误映射（lib_core_auth_auth_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单28-4: whoami 双拉与切换当前租户（lib/features/me/me_controller.dart）",
+    "lang": "dart",
+    "chapter_file": "chapter-028.md",
+    "line": 313,
+    "extracted_file": "src\\代码清单28-4_ whoami 双拉与切换当前租户（lib_features_me_me_controller.dart）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单28-5: 租户列表控制器：客户端侧过滤（lib/features/tenants/tenant_list_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-028.md",
+    "line": 411,
+    "extracted_file": "src\\代码清单28-5_ 租户列表控制器：客户端侧过滤（lib_features_tenants_tenant_list_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单29-1: 角色列表控制器：租户作用域 family 装配（lib/features/roles/role_list_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-029.md",
+    "line": 37,
+    "extracted_file": "src\\代码清单29-1_ 角色列表控制器：租户作用域 family 装配（lib_features_roles_role_list_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单29-2: 角色表单弹窗：双态复用与必填校验（lib/features/roles/role_form_dialog.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-029.md",
+    "line": 107,
+    "extracted_file": "src\\代码清单29-2_ 角色表单弹窗：双态复用与必填校验（lib_features_roles_role_form_dialog.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单29-3: 角色菜单授权页：双拉回显与整批保存（lib/features/roles/role_menu_grant_page.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-029.md",
+    "line": 199,
+    "extracted_file": "src\\代码清单29-3_ 角色菜单授权页：双拉回显与整批保存（lib_features_roles_role_menu_grant_page.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单29-4: 菜单管理控制器：五写词面（lib/features/appmenus/menu_tree_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-029.md",
+    "line": 306,
+    "extracted_file": "src\\代码清单29-4_ 菜单管理控制器：五写词面（lib_features_appmenus_menu_tree_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单29-5: 扁平列表组树与同级重排（lib/features/appmenus/menu_tree_page.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-029.md",
+    "line": 367,
+    "extracted_file": "src\\代码清单29-5_ 扁平列表组树与同级重排（lib_features_appmenus_menu_tree_page.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单30-1: 成员列表控制器：服务端状态过滤（lib/features/members/member_list_controller.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-030.md",
+    "line": 17,
+    "extracted_file": "src\\代码清单30-1_ 成员列表控制器：服务端状态过滤（lib_features_members_member_list_controller.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单30-2: 成员表单弹窗：双态复用与必填校验（lib/features/members/member_form_dialog.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-030.md",
+    "line": 93,
+    "extracted_file": "src\\代码清单30-2_ 成员表单弹窗：双态复用与必填校验（lib_features_members_member_form_dialog.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单30-3: 分配角色弹窗：预勾回显与 PUT 全量覆盖（lib/features/members/assign_member_roles_dialog.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-030.md",
+    "line": 192,
+    "extracted_file": "src\\代码清单30-3_ 分配角色弹窗：预勾回显与 PUT 全量覆盖（lib_features_members_assign_member_roles_dialog.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单30-4: OAuth 应用表单：密钥自动生成与双态复用（lib/features/appadmin/client_form_dialog.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-030.md",
+    "line": 260,
+    "extracted_file": "src\\代码清单30-4_ OAuth 应用表单：密钥自动生成与双态复用（lib_features_appadmin_client_form_dialog.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单30-5: 订阅应用弹窗：UTC 零点重建与选填留空（lib/features/applications/subscribe_application_dialog.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-030.md",
+    "line": 367,
+    "extracted_file": "src\\代码清单30-5_ 订阅应用弹窗：UTC 零点重建与选填留空（lib_features_applications_subscribe_application_dialog.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单30-6: 订阅行内启停与移除（lib/features/applications/application_list_page.dart 截取）",
+    "lang": "dart",
+    "chapter_file": "chapter-030.md",
+    "line": 429,
+    "extracted_file": "src\\代码清单30-6_ 订阅行内启停与移除（lib_features_applications_application_list_page.dart 截取）.dart",
+    "source": null
+  },
+  {
+    "title": "代码清单31-1: CI 全量回归工作流（上）",
+    "lang": "yaml",
+    "chapter_file": "chapter-031.md",
+    "line": 16,
+    "extracted_file": "src\\代码清单31-1_ CI 全量回归工作流（上）.yml",
+    "source": ".github/workflows/ci.yml"
+  },
+  {
+    "title": "代码清单31-2: CI 全量回归工作流（下）",
+    "lang": "yaml",
+    "chapter_file": "chapter-031.md",
+    "line": 63,
+    "extracted_file": "src\\代码清单31-2_ CI 全量回归工作流（下）.yml",
+    "source": ".github/workflows/ci.yml"
+  },
+  {
+    "title": "代码清单31-3: 静态容器镜像定义",
+    "lang": "dockerfile",
+    "chapter_file": "chapter-031.md",
+    "line": 147,
+    "extracted_file": "src\\代码清单31-3_ 静态容器镜像定义.dockerfile",
+    "source": "Dockerfile"
+  },
+  {
+    "title": "代码清单31-4: VPS 部署脚本（上）",
+    "lang": "shell",
+    "chapter_file": "chapter-031.md",
+    "line": 219,
+    "extracted_file": "src\\代码清单31-4_ VPS 部署脚本（上）.sh",
+    "source": "deploy/saas-identity-platform-flutter.sh"
+  },
+  {
+    "title": "代码清单31-5: VPS 部署脚本（下）",
+    "lang": "shell",
+    "chapter_file": "chapter-031.md",
+    "line": 299,
+    "extracted_file": "src\\代码清单31-5_ VPS 部署脚本（下）.sh",
+    "source": "deploy/saas-identity-platform-flutter.sh"
+  },
+  {
+    "title": "代码清单31-6: VPS 反向代理配置样例",
+    "lang": "nginx",
+    "chapter_file": "chapter-031.md",
+    "line": 390,
+    "extracted_file": "src\\代码清单31-6_ VPS 反向代理配置样例.conf",
+    "source": "deploy/nginx-vps.conf.example"
+  }
+]

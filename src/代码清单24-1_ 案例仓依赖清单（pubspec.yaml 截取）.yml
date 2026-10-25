@@ -1,0 +1,16 @@
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: 3.4.3
+  dio: 5.11.1
+  one_of: 1.5.0
+  one_of_serializer: 1.5.0
+  built_value: 8.13.0
+  built_collection: 5.1.2
+  flutter_secure_storage: 11.2.0
+  # 生成客户端（lib/generated/）的传递依赖（one_of / built_value 系，无 json_annotation）
+  # 已对账钉 exact，以生成器临时包 pubspec 的约束为准。
+# ……（节略）
